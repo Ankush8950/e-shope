@@ -1,0 +1,97 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 40px 0;
+}
+.img{
+    margin-right: 50px;
+}
+
+.form{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.form h2{
+    margin-top: 30px;
+    color: red;
+}
+
+.inputform{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+input{
+    width: 350px;
+    height: 35px;
+    margin-top: 15px;
+    padding:5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    outline-color: blue;
+    outline-width: 1px;
+}
+.inputpassword{
+    position: relative; 
+}
+
+.inputform button{
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.icons{
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    cursor: pointer;
+}
+.links{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.goLogin{
+    width: 85%;
+    height: 35px;
+    margin-top: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register{
+    display: flex;
+    margin: 10px 0 50px 0;
+}
+
+.register p{
+    margin-right: 5px;
+}
+.register a{
+    text-decoration: none;   
+    color: blue; 
+}
